@@ -22,5 +22,9 @@ Steps:
 - No firmware available as of now, if you have a stock router unmodified, kindly let me know cuz I want a working back up for my router.
 - Some software problems that came along with the stock firmware
 
+# Known problems that can be fixed / worked around
+- Most importantly, dhcpcd static ip, the web UI is known to not work properly, but by gaining root access, you can fix this yourself
+- And lack of features, i.e. custom dyn ip server, VPN, and some other feasible stuff...
+
 # Legal?
 Well, Idk, the goal here is to provide end-users with the rights to add their custom binaries to the stock router, extending its functionalities ( and also to reduce e-waste, since we do not have to get a new router for what we demand ). The benefits are endless, that said, I am not responsible for any damages done to your router, and you are supposed to have at least some knowledge about embedded linux / linux. Happy modding! 
