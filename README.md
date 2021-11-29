@@ -2,6 +2,7 @@
 
 # Enabling ssh/telnet/ftp server
 Currently there's an account named MaxARSysOpr with the password formatted like so : !!bestHOME!!XXXX ( where XXXX corresponds to the last 4 digits of the serial number )
+Once logged in, the options will be available under security > access control
 
 # Gaining root access to install custom binaries 
 Prerequisites for this method : 
