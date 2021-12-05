@@ -22,6 +22,8 @@ Steps:
 # Hurdles
 - No firmware available as of now, if you have a stock router unmodified, kindly let me know cuz I want a working back up for my router.
 - Some software problems that came along with the stock firmware
+- Need to find the JTAG port on the router
+- No openwrt support
 
 # Known problems that can be fixed / worked around
 - Most importantly, dhcpcd static ip, the web UI is known to not work properly, but by gaining root access, you can fix this yourself
