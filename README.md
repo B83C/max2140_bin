@@ -28,6 +28,7 @@ Steps:
 # Known problems that can be fixed / worked around
 - Most importantly, dhcpcd static ip, the web UI is known to not work properly, but by gaining root access, you can fix this yourself
 - And lack of features, i.e. custom dyn ip server, VPN, and some other feasible stuff...
+- *Devices disconnect immediately upon connecting (especially old devices)* : need to change ieee80211w=1 to ieee80211w=0 in /tmp/wl1_hapd.conf and restarting the interface wl1
 
 # Legal?
 Well, Idk, the goal here is to provide end-users with the rights to add their custom binaries to the stock router, extending its functionalities ( and also to reduce e-waste, since we do not have to get a new router for what we demand ). The benefits are endless, that said, I am not responsible for any damages done to your router, and you are supposed to have at least some knowledge about embedded linux / linux. Happy modding! 
