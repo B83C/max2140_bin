@@ -5,7 +5,7 @@ Currently there's an account named MaxARSysOpr with the password formatted like 
 Once logged in, the options will be available under security > access control
 
 # Gaining root access to install custom binaries 
-Prerequisites for this method : 
+Prerequisites : 
 - Working MaxARSysOpr password
 - A modicum of knowledge 
 - Enabled telnetd/ssh from the UI@192.168.1.254
