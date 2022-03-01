@@ -21,11 +21,11 @@ Steps:
 
 # Files
 
-| Path | Uses |
-|:====:|:====:|
-| busybox | Pre-built busybox binary |
-| busybox_config | Busybox build config file, copy it into the root path of the busybox repo as .config to build |
-| scripts/rrmnt | Convinient helper tool to remount / of the router as rw/ro |
+| Path           | Uses                                                                                  |
+|----------------|---------------------------------------------------------------------------------------|
+| busybox        | Pre-built busybox binary                                                              |
+| busybox_config | Build config file, copy it into the root path of the busybox repo as .config to build |
+| scripts/rrmnt  | Convenient helper tool to remount / of the router as rw/ro                            |
 
 # Hurdles
 - No firmware available as of now, if you have a stock router unmodified, kindly let me know cuz I want a working back up for my router.
