@@ -19,6 +19,14 @@ Steps:
 5. You're basically done! Just connect to the router with `telnet 192.168.1.254 1234`. Again, use the port u've just chosen.
 6. Voila full root access to the router!
 
+# Files
+
+| Path | Uses |
+|:====:|:====:|
+| busybox | Pre-built busybox binary |
+| busybox_config | Busybox build config file, copy it into the root path of the busybox repo as .config to build |
+| scripts/rrmnt | Convinient helper tool to remount / of the router as rw/ro |
+
 # Hurdles
 - No firmware available as of now, if you have a stock router unmodified, kindly let me know cuz I want a working back up for my router.
 - Some software problems that came along with the stock firmware
