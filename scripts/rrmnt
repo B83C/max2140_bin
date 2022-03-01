@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$1" = "rw" ]; then
+	mount -o remount,rw /dev/ubi0_0 /
+else 
+	mount -o remount,ro /dev/ubi0_0 /
+fi;
