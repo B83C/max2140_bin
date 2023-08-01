@@ -1,9 +1,9 @@
 ## max2140_bin
 
 # Enabling ssh/telnet/ftp server
-The key to full access manifests itself in the form of !!bestHOME!!xxxx where xxxx is shy last 4-digit of the serial number. You must disguise yourself as MaxARSysOpr.
+The key to full access manifests itself in the form of !!bestHOME!!xxxx (Shhh, don't tell anyone it's last 4-digit of the serial number). You must disguise yourself as MaxARSysOpr.
 
-Listen to me, hacker, your time has come, the clue to breaking free is in the access control section of the Security panel. Now, go ahead!
+Listen to me, hacker, your time has come, the clue to breaking free is in `Security->Access Control`. The ball is now in your court!
 
 # Gaining root access for custom installations 
 Prerequisites : 
