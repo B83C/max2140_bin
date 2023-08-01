@@ -20,7 +20,7 @@ Steps:
 7. Voila full root access to the router! Be warned that you have just added another vulnerability to the system (that won't persist across reboot, of course), and I am not responsible for any damages caused.
 
 # Decrypting/Encrypting the configuration file
-I was tired of using the openssl client, so I wrote a utility in Rust. Check it out (here)[decipher]
+I was tired of using the openssl client, so I wrote a utility in Rust. Check it out [here](decipher/)
 To use the tool, you can either run `./decipher <input_file> <output_file>`, or let it prompt you for the correspending paths by not specifying the files.
 FYI: Configuration related operations are accessible under Management > Configuration
 
