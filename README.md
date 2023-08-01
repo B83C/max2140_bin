@@ -21,8 +21,13 @@ Steps:
 
 # Decrypting/Encrypting the configuration file
 I was tired of using the openssl client, so I wrote a utility in Rust. Check it out [here](decipher/)
-To use the tool, you can either run `./decipher <input_file> <output_file>`, or let it prompt you for the correspending paths by not specifying the files.
+
+
+To use the tool, you can either run `./max_decipher <input_file> <output_file>`, or let it prompt you for the correspending paths by not specifying the files.
+
+
 FYI: Configuration related operations are accessible under Management > Configuration
+
 
 # Files
 
